@@ -19,13 +19,14 @@ A simple weather application that allows you to search for the current weather i
 
 2. **Get your API key:**
 
-   - Visit the weather API provider’s website (for example, [OpenWeatherMap](https://openweathermap.org/api)) and sign up for a free API key.
+   - This project uses [OpenWeatherMap](https://openweathermap.org/api) for weather data.
+   - Sign up at [openweathermap.org](https://openweathermap.org/api) to get your free API key.
 
 3. **Add your API key:**
 
    - Open the main JavaScript file (e.g., `index.js`).
    - Find the line where the `apiKey` variable is defined.
-   - Replace the placeholder with your own API key from the weather API provider.
+   - Replace the placeholder value with your own API key from OpenWeatherMap.
 
 4. **Run the application:**
    - Open `index.html` in your web browser.
