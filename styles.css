@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e4e4e4;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 40px;
+}
+
+.weather-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.4rem;
+}
+
+.city-input {
+  padding: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 2px solid #22222249;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 250px;
+  border-radius: 10px;
+}
+
+button[type="submit"] {
+  padding: 7px 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #3ecf3e;
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  border: none;
+  margin-bottom: 30px;
+}
+
+button[type="submit"]:hover {
+  background-color: #21b921;
+}
+
+button[type="submit"]:active {
+  transform: scale(0.98);
+}
+
+.card {
+  background: linear-gradient(180deg, #bcd3ff, #f3bf5e);
+  padding: 35px;
+  box-shadow: 2px 2px 5px #00000056;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 0 20px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.city-display,
+.temp-display {
+  font-size: 2.5rem;
+  color: #000000d2;
+}
+
+.desc-display {
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+.weather-emoji {
+  font-size: 5rem;
+  text-shadow: 1px 1px 3px black;
+}
+
+.error-display {
+  font-size: 1.5rem;
+  color: #000000e7;
+}
+
+@media only screen and (min-width: 500px) {
+  .city-input {
+    font-size: 1.4rem;
+    width: 270px;
+  }
+
+  .weather-form {
+    font-size: 1.6rem;
+  }
+
+  button[type="submit"] {
+    font-size: 1.4rem;
+    padding: 8px 11px;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .city-display,
+  .temp-display {
+    font-size: 2.6rem;
+  }
+
+  .desc-display {
+    font-size: 1.5rem;
+  }
+
+  .weather-emoji {
+    font-size: 5.4rem;
+  }
+
+  .error-display {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .city-input {
+    font-size: 1.6rem;
+    width: 300px;
+  }
+
+  .weather-form {
+    font-size: 1.8 rem;
+  }
+
+  button[type="submit"] {
+    font-size: 1.6rem;
+    padding: 10px 12px;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  .city-display,
+  .temp-display {
+    font-size: 2.7rem;
+  }
+
+  .desc-display {
+    font-size: 1.6rem;
+  }
+
+  .weather-emoji {
+    font-size: 5.8rem;
+  }
+
+  .error-display {
+    font-size: 1.7rem;
+  }
+}

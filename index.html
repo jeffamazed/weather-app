@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <form class="weather-form">
+        <label for="city-input">Enter a City:</label>
+        <input
+          id="city-input"
+          type="text"
+          class="city-input"
+          placeholder="Enter city"
+        />
+        <button type="submit" aria-label="Get Weather">Get Weather</button>
+      </form>
+
+      <div class="card" style="display: none" role="status"></div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
